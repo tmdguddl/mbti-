@@ -1,0 +1,32 @@
+﻿<Window x:Class="Termproject__v0._1._0.q3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Termproject__v0._1._0"
+        mc:Ignorable="d"
+        Title="q3" Height="600" Width="800">
+    <Grid>
+        <StackPanel Margin="0 50 0 480" Background="AliceBlue" Orientation="Vertical" 
+                    HorizontalAlignment="Center">
+            <TextBlock Text="Q3" FontSize="30" FontWeight="Black"
+                       ></TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <TextBlock FontSize="30"  Margin=" 0 150 0 500" 
+                       FontWeight="Bold" Text="동기가 시험을 망쳐서 울고 있을 때 내 반응은?"></TextBlock>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <Button x:Name="btn3" Margin="0 300 0 500" Content="몇 점 받았는데 울어?" FontSize="16" 
+                    Height="50" Width="300"
+                    Click="btn3_Click"></Button>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <Button x:Name="btn4" Margin="0 360 0 500" Content="괜찮아 다음에 더 잘 치면 돼 울지 마" 
+                    FontSize="16" 
+                    Height="50" Width="300"
+                    Click="btn4_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Window>

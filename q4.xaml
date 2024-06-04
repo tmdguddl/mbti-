@@ -1,0 +1,33 @@
+﻿<Window x:Class="Termproject__v0._1._0.q4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Termproject__v0._1._0"
+        mc:Ignorable="d"
+        Title="q4" Height="600" Width="800">
+    <Grid>
+        <StackPanel Margin="0 50 0 480" Background="AliceBlue" Orientation="Vertical" 
+                    HorizontalAlignment="Center">
+            <TextBlock Text="Q4" FontSize="30" FontWeight="Black"
+                       ></TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <TextBlock FontSize="30"  Margin=" 0 150 0 500" 
+                       FontWeight="Bold" Text="시험이나 과제를 할 때에 나는?"></TextBlock>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <Button x:Name="btn3" Margin="0 300 0 500" Content="최대한 공부를 미루고 &#10;하고 싶은 공부만 한다"
+                    FontSize="16" 
+                    Height="50" Width="300"
+                    Click="btn3_Click"></Button>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <Button x:Name="btn4" Margin="0 360 0 500" Content="미리 공부량과 과제량을 &#10;얼만큼 할 지 생각해 놓는다"
+                    FontSize="16" 
+                    Height="50" Width="300"
+                    Click="btn4_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
